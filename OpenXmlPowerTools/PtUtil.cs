@@ -1542,7 +1542,7 @@ namespace Codeuctivity.OpenXmlPowerTools
             writer.WriteString(this.Value.Substring(this.decodedValue.Length));
         }
 
-        public override async Task WriteToAsync(XmlWriter writer, CancellationToken cancellationToken)
+        public async Task WriteToAsync(XmlWriter writer, CancellationToken cancellationToken)
         {
             if (this.originalValue.Length > 0
                 && this.originalValue[0] == '#')
