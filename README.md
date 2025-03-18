@@ -1,7 +1,5 @@
 ﻿# OpenXmlPowerTools
 
-[![.NET build and test](https://github.com/Codeuctivity/OpenXmlPowerTools/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Codeuctivity/OpenXmlPowerTools/actions/workflows/dotnet.yml) [![Nuget](https://img.shields.io/nuget/v/Codeuctivity.OpenXmlPowerTools.svg)](https://www.nuget.org/packages/Codeuctivity.OpenXmlPowerTools/) 
-
 Fork of https://github.com/Codeuctivity/OpenXmlPowerTools with .net framework 4.8 compatibility
 
 ## Focus of this fork
