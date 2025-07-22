@@ -19,10 +19,13 @@ internal class WmlToHtmlConverterHelper
          * This example loads each document into a byte array, then into a memory stream, so that the document can be opened for writing without
          * modifying the source document.
          */
-        foreach (var file in Directory.GetFiles("../../../", "*.docx"))
-        {
-            ConvertToHtml(file, tempDi.FullName);
-        }
+        //foreach (var file in Directory.GetFiles("../../../", "*.docx"))
+        //{
+        //    ConvertToHtml(file, tempDi.FullName);
+        //}
+
+        ConvertToHtml(@"C:\Users\BenjaminLOPESVICENTE\FAYAT\Méthode de Rédaction Structurée - Blocs Fayat Fondations\BLOCS\BLOCS FRANKI FONDATION\Offres\Compte prorata exclus.docx", tempDi.FullName);
+        ConvertToHtml(@"C:\Users\BenjaminLOPESVICENTE\FAYAT\Méthode de Rédaction Structurée - Blocs Fayat Fondations\BLOCS\BLOCS FRANKI FONDATION\Offres\Abréviations.docx", tempDi.FullName);
     }
 
     public static void ConvertToHtml(string file, string outputDirectory)
