@@ -2,11 +2,6 @@
 
 Fork of https://github.com/Codeuctivity/OpenXmlPowerTools with .net framework 4.8 compatibility
 
-## Focus of this fork
-
-- Linux, Windows and MacOs support was added by this fork
-- Conversion of DOCX to HTML/CSS
-
 ## Known missing features - Conversion of DOCX to HTML/CSS
 
 - [floating settings of images are ignored](https://stackoverflow.com/questions/70277539/how-to-handle-floating-images-in-openxml-and-convert-to-html-equivalent/73639409#73639409)
